@@ -1,0 +1,4 @@
+class ReversNumbarTR1
+	{
+	public static void main(String args[])
+	}
