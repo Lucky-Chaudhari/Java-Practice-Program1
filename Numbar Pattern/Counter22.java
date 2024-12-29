@@ -10,7 +10,7 @@ public static void main(String args[])
             for(int j=i;j<=n;j++)
              {
              System.out.print(c +"\t");
-                   c-=j-2;
+                c-=j+1;
 
               }
             System.out.println();
@@ -21,3 +21,11 @@ public static void main(String args[])
  }
 
 }
+/*
+output:-
+15      13      10      6       1
+14      11      7       2
+12      8       3
+9       4
+5
+*/
